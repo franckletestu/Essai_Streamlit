@@ -2,8 +2,6 @@ import streamlit as st
 
 st.write("## Test test")
 
-st.slider('Direction d''arrivée',min_value=0.0,max_value=1.0,step=0.01)
-
 st.text('Fixed width text')
 st.markdown('_Markdown_') # see *
 st.latex(r''' e^{i\pi} + 1 = 0 ''')
@@ -16,3 +14,4 @@ st.code('for i in range(8): foo()')
 st.caption('This is a small text')
 
 st.sidebar.header("About")
+st.sidebar.slider('Direction d''arrivée',min_value=0.0,max_value=1.0,step=0.01)
