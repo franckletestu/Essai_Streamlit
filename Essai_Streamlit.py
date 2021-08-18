@@ -2,7 +2,7 @@ import streamlit as st
 
 st.write("## Test test")
 
-st.slider('Direction d''arrivée',min_value=0,max_value=10,step=1)
+st.slider('Direction d''arrivée',min_value=0,max_value=10,step=2)
 
 st.text('Fixed width text')
 st.markdown('_Markdown_') # see *
