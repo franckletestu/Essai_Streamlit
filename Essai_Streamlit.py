@@ -2,6 +2,8 @@ import streamlit as st
 
 st.write("## Test test")
 
+st.slider('Direction d''arrivée',0,1)
+
 st.text('Fixed width text')
 st.markdown('_Markdown_') # see *
 st.latex(r''' e^{i\pi} + 1 = 0 ''')
